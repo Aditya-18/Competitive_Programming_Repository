@@ -1,4 +1,6 @@
+//Use this module with General_Template.cpp
 //Uses the efficient power function that we already build
+//Time Complexity to compute inverse_modulo is O(N) and for NCR is O(1)
 
 ll fact[SIZE], inv[SIZE];
 void build_inverse_modulo() {
