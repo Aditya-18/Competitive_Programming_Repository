@@ -1,3 +1,5 @@
+//Use this module with General_Template.cpp
+//Time Complexity to compute sieve is O(n * log(n) * log(log(n)))
 
 v(int) primes;
 bitset<10000010> bs;
