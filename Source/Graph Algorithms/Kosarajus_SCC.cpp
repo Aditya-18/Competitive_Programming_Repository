@@ -97,4 +97,5 @@ int main() {
     	g[u].push_back({v, 0});
     } 
     kosarajuSCC(g, m);
+	
 }
