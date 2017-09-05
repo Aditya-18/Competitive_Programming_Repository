@@ -61,7 +61,7 @@ int MUL(int a, int b, int m = MOD) {
 }
  
 int DIV(int a, int b, int m = MOD) {
-	return MUL(a, power(b, m - 2));
+//	return MUL(a, power(b, m - 2));		//Include Efficient Power Function
 }
 
 int main() {
