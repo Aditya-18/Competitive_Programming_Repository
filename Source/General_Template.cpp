@@ -61,12 +61,12 @@ int MUL(int a, int b, int m = MOD) {
 }
  
 int DIV(int a, int b, int m = MOD) {
-//	return MUL(a, power(b, m - 2));		//Include Efficient Power Function
+	// return MUL(a, power(b, m - 2));		//Include Efficient Power Function
 }
 
 int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(0);
+	// ios_base::sync_with_stdio(false);
+	// cin.tie(0);
 	// clock_t tStart = clock();
 
 	// freopen("in.txt", "r", stdin);
