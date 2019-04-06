@@ -65,11 +65,18 @@ int DIV(int a, int b, int m = MOD) {
 }
 
 int main() {
-//	freopen("in.txt", "r", stdin);
-//	freopen("out1.txt", "w", stdout);
+	ios_base::sync_with_stdio(false);
+	cin.tie(0);
+	// clock_t tStart = clock();
+
+	// freopen("in.txt", "r", stdin);
+	// freopen("out1.txt", "w", stdout);
+	
 	int t;
 	cin >> t;
 	rep(tt, 0, t - 1) {
-//		printf("Case #%d: ", tt);
+		printf("Case #%d: ", tt + 1);
 	}
+
+   	// printf("Time taken: %.2fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
 }
